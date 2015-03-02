@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Travel Experts Manager.exe" version="1.0.0.10" publicKeyToken="26b117963306421c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Travel Experts Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Travel Experts Manager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Travel Experts Manager.exe" size="2065920">
+      <assemblyIdentity name="Travel Experts Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rPXTFMNpn1dSD25VozmR6CKoBLd6bSrvc/dL3yTQDa8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="41335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1UQdJJWmPjS22+mc8Me30leRdMevlDZsGFECGl9XQPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Logo.JPG" size="64499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b98PDzDqNHcAiU/SCiJuRsi9fdtZOvhVicNDJ+Va8uU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Travel Experts Manager.exe.config" size="541">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fVpDd4+c2SfULWDbqmAGyrYdounEjoOFvqaD1R5dcNA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ACDM\684146" issuerKeyHash="621077ea3168ca88304131254890b1df7dbf895e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NuRRUzhZb3Yqr1JOW4IYAUEH4ZVfN5HbdqZYEPa5gi4=</DigestValue></Reference></SignedInfo><SignatureValue>AcGPCp86i0fYBjMGePyfdwBS+qXS1t/JlkNaSlyTDrhplWdPN/g1ATNLCXKjJq/scei9aJ3Yw6vdurFfdb5Eqfks54bJWmEkOJZcbFW8NAHFTNiZ2PMWFX9qS+mSFCZYXaSRVAnE0VvwGnvFLrvDWrsco1IyF7wneo2LQJcTUdM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rrw56l1vYw+6n3K4yzzLdGZdRR6Pu+bjG1RrDOu7oO4AKyVSBRsNVULaSmu8X+CwE+CZO12ajbpjFYXUHjd+Pwt5MOSO9xBbxSuRZe/o+lBEp1DdkCdmqphMnysS2wysRWa34Ew7qNXfbENunxswkMAGHkfzMWCuuy6iGraPp1c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2e82b9f61058a676db91375f95e107410118825b4e52af2a766f59385351e436" Description="" Url=""><as:assemblyIdentity name="Travel Experts Manager.exe" version="1.0.0.10" publicKeyToken="26b117963306421c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ACDM\684146</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8jUz70qZY62pqGYBQ3GJUMOz7Cp4lNfmFyy6r7obao0=</DigestValue></Reference></SignedInfo><SignatureValue>NewoXovMUt1wTep54ob3CI58jS6hdzqs1OySLRdxP8C5RsL0bDCZ5xfGj0hZarUEM+yVJfVB/88mZzG4vBw9yukvSQj4taeXBLkOg2E470ZPX5Ba2w2qa64oJ/j9wsaNHeyrx77Dcapv/rx6EHph/zTsUwx2NYX6lAUXcNzNqQk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rrw56l1vYw+6n3K4yzzLdGZdRR6Pu+bjG1RrDOu7oO4AKyVSBRsNVULaSmu8X+CwE+CZO12ajbpjFYXUHjd+Pwt5MOSO9xBbxSuRZe/o+lBEp1DdkCdmqphMnysS2wysRWa34Ew7qNXfbENunxswkMAGHkfzMWCuuy6iGraPp1c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQGBk7czpLJJ9GPntPIGpd+zANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBDAEQATQBcADYAOAA0ADEANAA2MB4XDTE1MDIwNTE5NDAzNloXDTE2MDIwNjAxNDAzNlowITEfMB0GA1UEAx4WAEEAQwBEAE0AXAA2ADgANAAxADQANjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArrw56l1vYw+6n3K4yzzLdGZdRR6Pu+bjG1RrDOu7oO4AKyVSBRsNVULaSmu8X+CwE+CZO12ajbpjFYXUHjd+Pwt5MOSO9xBbxSuRZe/o+lBEp1DdkCdmqphMnysS2wysRWa34Ew7qNXfbENunxswkMAGHkfzMWCuuy6iGraPp1cCAwEAATANBgkqhkiG9w0BAQsFAAOBgQChHsUC/MAj28+7kPD9vMaO2I7KA/FjfwFlFYDoLigy9ABuq3ii2hJrdefMU20bZCE6n1rF3YQNial8/dTWVWxBNQE3aEiX+zFyiOO0o1HBoBDUSLrUxHc6HJL4LwQaxQRwYnt8gqdoMc3O/0K3dRV2+RL49s/n0bhebjCYreV1dw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
